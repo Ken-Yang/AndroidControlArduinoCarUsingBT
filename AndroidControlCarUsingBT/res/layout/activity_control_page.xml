@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnForward"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:text="Forward" />
+
+    <LinearLayout
+       	android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text="Left" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text="Stop" />
+
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text="Right" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:text="Back" />
+
+</LinearLayout>
